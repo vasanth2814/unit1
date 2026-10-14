@@ -1,0 +1,11 @@
+class Employee {
+    var salary: Int = 10000 {
+        didSet {
+            print("Salary changed to \(salary)")
+        }
+    }
+}
+
+let emp = Employee()
+emp.salary = 15000
+emp.salary = 20000
