@@ -1,6 +1,0 @@
-let numbers = [10, 20, 30, 40, 50]
-
-print(numbers)
-print("Count:", numbers.count)
-print("First:", numbers[0])
-print("Last:", numbers[numbers.count - 1])
